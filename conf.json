@@ -1,0 +1,21 @@
+{
+  "templates": {
+    "theme": "flatly",
+    "systemName": "InstaJS",
+    "navType": "vertical",
+    "syntaxTheme": "dark",
+    "cleverLinks": false,
+    "monospaceLinks": false,
+    "default": {
+      "outputSourceFiles": true
+    }
+  },
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": ["jsdoc", "closure"]
+  },
+  "source": {
+    "includePattern": ".+\\.js(doc)?$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  }
+}

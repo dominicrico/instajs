@@ -1,0 +1,38 @@
+{
+  "name": "instajs",
+  "version": "0.1.0",
+  "description": "NnodeJS wrapper for the public Instagram API",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "gen-docs": "jsdoc -c conf.json *.js -a all --debug --verbose -P package.json -t ./node_modules/ink-docstrap/template -d ./docs/ -R README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dominicrico/instajs.git"
+  },
+  "keywords": [
+    "instagram",
+    "api",
+    "wrapper"
+  ],
+  "author": "Dominic Rico Gómez <hello@coderocket.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dominicrico/instajs/issues"
+  },
+  "homepage": "https://github.com/dominicrico/instajs#readme",
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "ink-docstrap": "^1.2.1",
+    "lodash": "^4.15.0",
+    "q": "^1.4.1",
+    "sprintf-js": "^1.0.3"
+  },
+  "devDependencies": {
+    "grunt-jsdoc": "^2.1.0"
+  }
+}
